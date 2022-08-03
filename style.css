@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+}
+.product{
+    background: hsl(0, 0%, 100%);
+    height: 60vh;
+    width: 80vh;
+    margin: 8% auto 0;
+    border-radius: 2%;
+}
+.product_image{
+    margin-right: 20px;
+    width: 50%;
+    background-size: cover;
+    float: left;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    
+}
+h3{
+    color: hsl(228, 12%, 48%);
+    padding-top: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 26px;
+    width: 160px;
+    color: hsl(212, 21%, 14%);
+    line-height: 1;
+}
+p{
+    color: hsl(228, 12%, 48%);
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.attribution { 
+    display: inline-block;
+    font-size: 11px; 
+    text-align: center;
+}
+.price{
+    font-weight: bold;
+    color:#568575;
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+    margin-right: 10px;
+}
+.btn {
+    background: #568575;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+.discount{
+    text-decoration:line-through;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
